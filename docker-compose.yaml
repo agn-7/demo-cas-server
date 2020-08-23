@@ -7,7 +7,7 @@ services:
         container_name: cas-server
         restart: unless-stopped
         ports:
-          - 8000:8000
+          - 8071:8071
         volumes:
           - /etc/localtime:/etc/localtime:ro
         logging:
